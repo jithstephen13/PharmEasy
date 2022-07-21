@@ -31,10 +31,10 @@
      
         leftbtn.addEventListener("click", function(){
          imagestate--
-         if(imagestate<0){
+         if(imagestate< 0){
            
      
-           imagestate=imagestate.length-1
+           imagestate=imagestate.length-1;
          }
          cruser.src=imgarr[imagestate];
         })
