@@ -2,119 +2,116 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .nave{
-    width: 100%;
-    height: 100px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 0px;
-    background-color: #10847e;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  background-color: #10847e;
 
-    padding: 20px  35px;
-    display: flex;
-    z-index: 20;
-    
-  }
-  .navimg{
-    width:20% ;
+  padding: 20px  35px;
+  display: flex;
+  z-index: 20;
+  
+}
+.navimg{
+  width:20% ;
 
-  }
-  .navimg>img{
-    width: 100%;
-  }
-  .nabody{
-    width: 70%;
-    height: 100%;
-    padding-left: 10px;
+}
+.navimg>img{
+  width: 100%;
+}
+.nabody{
+  width: 70%;
+  height: 100%;
+  padding-left: 10px;
 
-  }
-  .nbtop{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    
-    
-    
-  }
-  .nbbtm{
-    width: 100%;
-    height: 50%;
-    display: flex;
+}
+.nbtop{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+    }
+.nbbtm{
+  width: 100%;
+  height: 50%;
+  display: flex;
 
-  }
-  .btmlfr{
-    width: 60%;
-    height: 100%;
-    
-    display: flex;
-    gap: 20px;
-    justify-content:start;
-    align-items:flex-end; 
-    font-weight: bold;
-    font-size: 20px;
+}
+.btmlfr{
+  width: 60%;
+  height: 100%;
+  
+  display: flex;
+  gap: 20px;
+  justify-content:start;
+  align-items:flex-end; 
+  font-weight: bold;
+  font-size: 20px;
+     
+}
+.btmrt{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items:flex-end;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: space-between;
        
-  }
-  .btmrt{
-    width: 40%;
-    height: 100%;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items:flex-end;
-    font-weight: bold;
-    font-size: 20px;
-    justify-content: space-between;
-         
-  }
-  .nbbtm a{
-    text-decoration: none;
-    color: #fff;
-    
-  }
-  .btmrt img{
-    margin-bottom: -5px;
-  }
-  .nbtop div,input{
-    height: 44px;
-    width: 20%;
-    background-color: aliceblue;
-    border: 0px;
+}
+.nbbtm a{
+  text-decoration: none;
+  color: #fff;
+  
+}
+.btmrt img{
+  margin-bottom: -5px;
+}
+.nbtop div,input{
+  height: 44px;
+  width: 20%;
+  background-color: aliceblue;
+  border: 0px;
+  border-radius: 5px;
+}
+.nbtop>:placeholder-shown{
+  font-size: 20px;
+} 
+        
+form {
+  
+  width: 300px;
+   height: 44px;
     border-radius: 5px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   background-color: #fff;
   }
-  .nbtop>:placeholder-shown{
-    font-size: 20px;
-  } 
-          
-  form {
-    
-    width: 300px;
-     height: 44px;
-      border-radius: 5px;
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     background-color: #fff;
-    }
-    input {
-    font: 16px ;
-     color: #fff;
-     height: 100%;
-     width: 70%;
-     padding: 6px 10px;
-    }
-    button {
-    all: unset;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-   }
-   .nbtop>div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   }
+  input {
+  font: 16px ;
+   color: #fff;
+   height: 100%;
+   width: 70%;
+   padding: 6px 10px;
+  }
+  button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+ }
+ .nbtop>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
 .body{
     width: 100%;
     height: 100%; 
@@ -239,17 +236,19 @@ font-weight: bolder;
   width: 100%;
   height: 30%;
   display: flex;
-  background-color: #8573e1;
-  margin: 10px 0px;
+  background: rgb(151,96,185);
+  background: linear-gradient(90deg, rgba(151,96,185,1) 5%, rgba(23,17,108,1) 26%, rgba(91,9,121,1) 58%, rgba(0,212,255,1) 100%);  margin: 10px 0px;
   text-align: center;
   align-items: center;
   justify-content:space-around;
+
 
 }
 .plusb a{
 text-decoration: none;
 font-size:20px;
 font-weight: bolder;
+color: #fff;
 
 }
 .lab{
@@ -353,7 +352,8 @@ display: none
 }
 .outcont{
 width: 100%;
-background-color: rgb(219, 227, 227);
+background: rgb(194,215,202);
+background: radial-gradient(circle, rgba(194,215,202,1) 4%, rgba(205,204,223,1) 26%, rgba(225,227,241,1) 53%, rgba(225,238,232,1) 100%);
 margin-top: 30px;
 }
 .container{
@@ -392,7 +392,7 @@ width:250%;
 }
 .pic3{
   width: 80%;
-  height: 250px;
+  height: auto;
   margin: auto;
   display: grid;
   gap: 30px;
@@ -442,44 +442,69 @@ width:250%;
   border-radius: 15px;
   margin-bottom: 30px;
 }
-.fa-brands{
-color: white;
-margin: 8px;
-}
-.bottem{
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  padding: 0 80px;
-  gap: 20px;
-  margin-top: 30px;
-  background-color: rgb(219, 227, 227);
-  
+fa-brands{
+  color: white;
+  margin: 8px;
+  } 
+.botm-border{
+    width: 100%;
+    background: rgb(194,215,202);
+    background: radial-gradient(circle, rgba(194,215,202,1) 4%, rgba(199,199,203,1) 26%, rgba(225,227,241,1) 53%, rgba(225,238,232,1) 100%);}
 
-}
-.bottem div{
- margin-top:30px ;
-
-  
-}
-.bottem .fa-brands{
-color: black;
-}
-.bottem a{
-  text-decoration: none;
+  .bottem{
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+    padding: 5px;
+  }
+  .bottem div{
+  text-align:left
+    
+  }
+  .bottem .fa-brands{
   color: black;
-}
-.sponcer{
+  }
+  .bottem a{
+    text-decoration: none;
+    color: black;
+  }.spcont{
   width: 100%;
-  padding: 20PX 0;
-}
-.sponcer div {
-  width: 80%;
-  margin: auto;
-  display: flex;
+  background: rgb(194,215,202);
+  background: radial-gradient(circle, rgba(194,215,202,1) 4%, rgba(199,199,203,1) 26%, rgba(225,227,241,1) 53%, rgba(225,238,232,1) 100%);  
+    }
+    .sponcer{
+      width: 80%;
+      padding: 20PX 10%;
+      height: 80px;
+      background: rgb(194,215,202);
+      background: radial-gradient(circle, rgba(194,215,202,1) 4%, rgba(199,199,203,1) 26%, rgba(225,227,241,1) 53%, rgba(225,238,232,1) 100%);
+      padding-bottom: 20px;
+      margin: auto;
   
-}
+    }
+    .sponcer div {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      height: auto;
+         
+  
+    }
+    .sponcer img{
+      height: 40px;
+  
+    }
+
+
+
+
+
+
+
+
+
 
 
  /* Medium screens */
@@ -567,7 +592,7 @@ height: auto;
   }
   .helthpakbox{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     gap: 10px;
     }
     .plust{
@@ -630,73 +655,81 @@ width: 80%;
 display: grid;
 grid-template-columns: repeat(2,1fr);
 }
+.sponcer img{
+  height: 20px;
+
+}
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Small screens */
 @media all and (min-width: 100px) and (max-width: 400px) {
   .body{
     width: 100%;
   }
   
-.nave{
-
+  .nave{
+    margin: 0;
+    height: auto;
+  }
+  .navimg{
+    width:20% ;
+  }
+  .nabody{
+    height: 100%;
+  
+  }
+  .nbtop{        
+    height: 50%;
+    display: flex;
+    
+    gap: 10px;
+    margin: 10px;
+  }
+  .nbbtm{
+    
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .btmlfr{
+    
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content:start;
+       
+  }
+  .btmrt{
+  
+    height: auto;
+    display: flex;
+    gap: 30px;
+  }
+       
+  form {
   height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  margin: 0px;
-  background-color: #10847e;
-
-  
-  display: flex;
-  
-  z-index: 20;
-  
-}
-#select{
   width: 50%;
-}
-
-.nabody{
-  height: 100%;
-
-}
-.nbtop{
   
-  height: 50%;
-  display: flex;
-  
-  gap: 10px;
-  margin: 10px;
-  
-  
-  
-  
-}
-.nbbtm{
-  
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-
-}
-.btmlfr{
-  height: 100%; 
-  display: flex;
-  justify-content:start;
-  font-size: 15px;
-}
-.btmrt{
-
-  height: auto;
-  display: flex;
-  gap: 20px;
-}
-     
-form {
-height: auto;
-
+  } 
+  #select{
+    width: 50%;
   }
  
 .body{
@@ -738,7 +771,7 @@ height: auto;
     .quest{
       width: 100%;
       padding: 30px;
-      margin-top: 20px;
+      margin-top: 30px;
     
     }
     
@@ -764,11 +797,13 @@ margin: 5px;
       width: 100%;
       display:flex;
       flex-direction: column;
+      
     }
     .apppic img{
   
      height: auto;
    width: 100%;
+   
     }
   
   #appicon{
@@ -778,9 +813,10 @@ margin: 5px;
   }
   
   #appicon>div{
-  padding: 0;
+    width: 100%;
   margin: 0;
   margin-top: 5px;
+  
   } 
   .bottem{
       width: 100%;
@@ -794,5 +830,10 @@ margin: 5px;
       height:20px;
       width: 20px;
   
+    }
+    #appicon div{
+    
+      width: 80%;
+      
     }
 }
