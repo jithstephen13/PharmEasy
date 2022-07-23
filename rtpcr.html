@@ -25,15 +25,15 @@
             </div>
             <div class="nbbtm">
                <div class="btmlfr">
-                  <a href="">Order Medicin</a>
-                  <a href="">Healthcare Products</a>
-                  <a href="">Lab Tests</a>
-                  <a href="">RTPCR</a>
+                  <a class="navhov" href="">Order Medicin</a>
+                  <a class="navhov" href="helth.html">Healthcare Products</a>
+                  <a class="navhov" href="labtest.html">Lab Tests</a>
+                  <a class="navhov" href="rtpcr.html">RTPCR</a>
                </div>
           <div class="btmrt">
-               <div><img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" alt=""> <a href="">Offers</a></div>
-               <div><img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt=""> <a href="">Login / </a> <a href="">Signup</a></div>
-               <div> <img src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt=""><a href="">Cart</a></div>
+               <div class="navhov"><img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" alt=""> <a href="">Offers</a></div>
+               <div class="navhov"  id="select1"><img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt=""> <a href="">Login / </a> <a href="">Signup</a></div>
+               <div class="navhov"> <img src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt=""><a href="">Cart</a></div>
            </div>
       
          </div>
@@ -56,21 +56,30 @@
                 <div class="testchoos">
                        <div><img src="https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg" alt=""> </div>
                        <div class="testinput"> 
-                           <h1>Covid-19 RTPCR (Coronavirus SARS - CoV2)</h1>
-                           <h4>₹700</h4>
+                           <h1 id="name">Covid-19 RTPCR (Coronavirus SARS - CoV2)</h1>
+                           <h4 id="amout">700</h4>
                            <span>onwards</span>
                            <div class="log">
                               <div class="logpic"><img src="https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/CompanyLogo/c1e61675f13e3744a29aca8e1a481c4c.png" alt=""> </div>
                               <div class="logtext"> Selected from PharmEasy Labs (Covid RTPCR)  </h3></div>
+                              
+                              
                            </div>
                            <div class="inputsec">
                                <div>Booking For</div>
                                <select id="priority">
             
-                                <option value="p1">1 Patient</option>
-                                <option value="p2">2 Patient</option>
+                                <option value="1">1 Patient</option>
+                                <option value="2">2 Patient</option>
+                                <option value="3">3 Patient</option>
+                                <option value="4">4 Patient</option>
                             
                               </select>
+                              
+                              <button id="selc">select</button>
+                              
+                              
+                             
                            </div>
                        </div>
 
@@ -95,9 +104,9 @@
              <div class="testcart">
                  <div  class="carhed"> <i class="fa-solid fa-cart-plus"></i> <h2><span id="carhed"></span> Item in Cart</h2></div>
                 
-                 <div class="crtbody" > <p>Covid-19 RTPCR (Coronavirus SARS - CoV2) </p><h3 id="crtbodt"></h3> </div>
+                 <div class="crotbdy" >    </div>
                  -----------------------------------------------------------------
-                 <div class="totel"> <p>Total</p> <h3 id="totel"></h3></div>
+                 <div class="totel"> <p>Total</p> </div>
                  <div id="buttont" type="click" > <a class="buttont" href="">View Cart</a></div> 
                  
 
@@ -236,6 +245,46 @@
 
         </div>
     </div>
+    <div class="popup">
+      <div class="popup-content">
+        <h1>check your location</h1>
+        <div> <input type="number" name="" id="inpu2" placeholder="enter your pin code">
+               <button class="buttonl2" id="buttonl2">check</button> </div>
+                   <div>
+                         <img src="https://assets.pharmeasy.in/web-assets/dist/ff969f07.svg" alt="">
+                         <h2>Login to vew address</h2>
+                   </div>
+                   <div>
+                        <img src="https://assets.pharmeasy.in/web-assets/dist/90ee736b.svg" alt="">
+                        <h4>sevice more than ,1000 towns and cities in india</h4>
+                  </div>
+                  <div>
+                        <img src="https://assets.pharmeasy.in/web-assets/dist/0c22e009.svg?dim=0x32&dpr=1.25&q=100" alt="">
+                        <h5>over 3000000 safty delivery</h5>
+      
+         </div>
+                  <img src="https://img.icons8.com/cotton/344/delete-sign--v1.png" alt="" id="close">
+      </div>
+      </div>
+      <div class="logsign">
+        <div class="login-content"> 
+        
+          <div>    
+             <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="">
+          </div>
+      
+          
+          <div class="loginbody">
+            <h4>Quick Login / Register</h4>
+               <input type="number" placeholder="Enter Your Phone Number">
+             
+               <img src="https://img.icons8.com/cotton/344/delete-sign--v1.png" alt="" id="close2">
+          </div>
+          <button>Sent OTP</button>
+          <p>By clicking continue, you agree with our Privacy Policy</p>
+            
+        </div>
+        </div>
  </div>
 
 </body>

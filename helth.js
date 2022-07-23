@@ -31,9 +31,9 @@
 
 
     let imgarr=[
-        "https://cms-contents.pharmeasy.in/banner/6d49c160016-2_HP_634x274.jpg","https://cms-contents.pharmeasy.in/banner/c5d7f1f2b79-1_MonsoonFever_HP.jpg","https://cms-contents.pharmeasy.in/banner/c5d7f1f2b79-1_MonsoonFever_HP.jpg","https://cms-contents.pharmeasy.in/banner/34b5c9105c6-On-time-or-FREEEE_HP_634x274.jpg","https://cms-contents.pharmeasy.in/banner/6adcb7205ef-1_HP_634x274jpg.jpg",
-        "https://cms-contents.pharmeasy.in/banner/4acf73cf129-2_MonsoonStomach_HP.jpg",
-        "https://cms-contents.pharmeasy.in/banner/fdcaf703bf8-couple.jpg",
+        "https://cms-contents.pharmeasy.in/banner/33ce2b5ba8b-Friends-CB-May22.jpg","https://cms-contents.pharmeasy.in/banner/c4d259a9077-OneTouchSPS-CB-July22.png",
+        "https://cms-contents.pharmeasy.in/banner/b1cd3f940f5-Evion-CB.jpg",
+        "https://cms-contents.pharmeasy.in/banner/a86af72f350-Huggies-CB-May22.jpg","https://cms-contents.pharmeasy.in/banner/c1642e659f5-BeautyLauch-SB-June22.jpg?dim=700x0&dpr=1&q=100"
         ]
         let leftbtn=document.getElementById("leftbtn")
         let rightbtn=document.getElementById("rgtbtn")
