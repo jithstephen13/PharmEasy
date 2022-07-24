@@ -721,7 +721,7 @@ fa-brands{
   
 }
 .navimg{
-  width:20% ;
+  width:10% ;
 
 }
 
@@ -891,7 +891,7 @@ grid-template-columns: repeat(2,1fr);
     height: auto;
   }
   .navimg{
-    width:20% ;
+    width:10% ;
   }
   .nabody{
     height: 100%;
