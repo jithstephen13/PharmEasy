@@ -20,7 +20,8 @@ body{
     
   }
   .navimg{
-    width:20% ;
+    width:10% ;
+    margin: 0px 20px;;
 
   }
   .navimg>img{
@@ -44,6 +45,10 @@ body{
     height: 50%;
     display: flex;
 
+  }
+  .navhov:hover{
+    color: aqua;
+    box-shadow:  0 5px 3px -3px rgb(255, 255, 255);
   }
   .btmlfr{
     width: 60%;
@@ -87,6 +92,10 @@ body{
   .nbtop>:placeholder-shown{
     font-size: 20px;
   } 
+  .button:hover,#query:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
           
   form {
     
@@ -225,6 +234,9 @@ background: radial-gradient(circle, rgba(194,215,202,1) 4%, rgba(199,199,203,1) 
   .pic3>div{
      padding: 20px;
   }
+  .pic3>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
   .testbody{
     width: 80%;
     height: auto;
@@ -244,7 +256,8 @@ background: radial-gradient(circle, rgba(194,215,202,1) 4%, rgba(199,199,203,1) 
     
   }
   .testcart{
-    width: 40%;
+    width: 50%;
+    
   }
   .testchoos{
     width: 95%;
@@ -277,7 +290,7 @@ background: radial-gradient(circle, rgba(194,215,202,1) 4%, rgba(199,199,203,1) 
   .log div{
     
     margin-right: 50px;
-    font-size: 30px;
+    font-size: 20px;
     
   }
   .logpic{
@@ -285,7 +298,6 @@ background: radial-gradient(circle, rgba(194,215,202,1) 4%, rgba(199,199,203,1) 
   }
   .log img{
   width: 100%;
-  border: 1px solid black; 
   margin: auto;
   
   }
@@ -295,6 +307,17 @@ background: radial-gradient(circle, rgba(194,215,202,1) 4%, rgba(199,199,203,1) 
   }
   .inputsec>div {
   margin: 0px 20px;
+  }
+  #priority{
+    height: 30px;
+  }
+  #selc{
+    background-color: #10847e;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin:0px 20px;
+    border-radius: 10px;
   }
 .testnart{
   width: 100%;
@@ -324,22 +347,22 @@ color: brown;
   margin: auto;
 }
 .testcart{
+  
   margin-top: 30px;
 }
 .carhed{
   display: flex;
-  gap: 30px;
+  gap: 10px;
 }
 .carhed h2{
   margin: 0;
 }
-.crtbody p{
-  font-weight: bolder;
-  font-size: medium;
-}
+
 .totel p{
   font-weight: bolder;
   font-size: large;
+ 
+ 
 }
 #buttont ,.buttont{
   width: 100%;
@@ -371,7 +394,115 @@ text-align: center;
   font-size: 25px
 }
 
+.popup{
+  background: rgba(0,0,0.0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  z-index: 20;
+  
+ }
+ .popup-content{
+  height: 700px;
+  width: 350px;
+  background:#fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+ .popup-content div{
+  width: 100%;
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+   margin-top: 20px;
+   gap: 20px;
+  
+  
+ }
+ #inpu2{
+  color: black;
+ }
+.buttonl2{
+  background-color: black;
+  color: rgb(204, 37, 37);
+  height: 35px;
+  width: 60px;
+  border-radius: 10px;
+  text-align: center;
+}
+.popup-content img{
+  width: 15%;
+  height: 100%;
+  padding: 5px 0px;
 
+}
+
+#close{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 10;
+  top: 0;
+
+}
+
+.logsign{
+  background: rgba(0,0,0.0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  z-index: 20;
+
+  
+ }
+ .login-content{
+  height: 700px;
+  width: 350px;
+  background:#fff;
+  padding: 0px;
+  border-radius: 5px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  color: black;
+  
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+ .login-content>div:nth-child(1){
+  margin: 0;
+   background-color:#10847e;
+  height: 15%;
+  
+ }
+ .login img{
+  width: 40%;
+  padding: 10px;
+ }
+ .login input{
+  color: black;
+ }
+
+ .login-content button{
+   width: 75%;
+   background-color: #10847e;
+   margin-top:30px ;
+ }
+ #close2{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 10;
+  top: 0;
+
+}
 
 
 
@@ -482,6 +613,11 @@ text-align: center;
     height: 70px;
     
   }
+  .popup-content{
+    height: 700px;
+    width: 100%;
+    }
+  
 
    }
 
@@ -608,4 +744,9 @@ margin-top: 5px;
     width: 80%;
     
   }
+  .popup-content{
+    height: 700px;
+    width: 100%;
+    }
+  
 }
